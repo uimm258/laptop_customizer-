@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Customize from './customize/Customize';
-import CustomizeHeader from './customize/CustomizeHeader'
+import Nav from './Header/Nav'
 import Cart from './cart/Cart';
 import './App.css';
 
@@ -39,7 +39,7 @@ class App extends Component {
   render(){
     return(
       <div>
-        <CustomizeHeader />
+        <Nav />
         <main>
           <Customize 
             features={this.props.features} 

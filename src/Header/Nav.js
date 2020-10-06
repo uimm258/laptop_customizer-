@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Customize() {
+export default function Nav() {
     return (
         <div className="App">
             <header>
